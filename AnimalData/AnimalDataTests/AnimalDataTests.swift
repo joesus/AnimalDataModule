@@ -6,31 +6,29 @@
 //  Copyright © 2018 Joe Susnick. All rights reserved.
 //
 
+import AnimalData
 import XCTest
-@testable import AnimalData
+
+struct SampleAnimalType: AnimalData {
+    let name: String
+    let species: Species
+}
 
 class AnimalDataTests: XCTestCase {
-    
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+
+    let sampleAnimal: AnimalData = SampleAnimalType(
+        name: "Joe",
+        species: .dog
+    )
+
+    func testName() {
+        XCTAssertEqual(sampleAnimal.name, "Joe",
+                       "Name is required as part of the AnimalData interface")
     }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
+
+    func testSpecies() {
+        XCTAssertEqual(sampleAnimal.species, .dog,
+                       "Species is required as part of the AnimalData interface")
     }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-    
+
 }
