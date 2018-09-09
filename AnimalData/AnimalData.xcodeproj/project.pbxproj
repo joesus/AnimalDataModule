@@ -11,8 +11,8 @@
 		F42EDAE0213350ED0093842D /* AnimalData.h in Headers */ = {isa = PBXBuildFile; fileRef = F42EDAD2213350ED0093842D /* AnimalData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F42EDAEA213351930093842D /* SpeciesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42EDAE9213351930093842D /* SpeciesTests.swift */; };
 		F42EDAEC213352E50093842D /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42EDAEB213352E50093842D /* Species.swift */; };
-		F42EDAEE2133539F0093842D /* AnimalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42EDAED2133539F0093842D /* AnimalData.swift */; };
-		F42EDAF0213353F40093842D /* AnimalDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42EDAEF213353F40093842D /* AnimalDataTests.swift */; };
+		F42EDAEE2133539F0093842D /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42EDAED2133539F0093842D /* Animal.swift */; };
+		F42EDAF0213353F40093842D /* AnimalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42EDAEF213353F40093842D /* AnimalTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +33,8 @@
 		F42EDADF213350ED0093842D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F42EDAE9213351930093842D /* SpeciesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesTests.swift; sourceTree = "<group>"; };
 		F42EDAEB213352E50093842D /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
-		F42EDAED2133539F0093842D /* AnimalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalData.swift; sourceTree = "<group>"; };
-		F42EDAEF213353F40093842D /* AnimalDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDataTests.swift; sourceTree = "<group>"; };
+		F42EDAED2133539F0093842D /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		F42EDAEF213353F40093842D /* AnimalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 				F42EDAD2213350ED0093842D /* AnimalData.h */,
 				F42EDAD3213350ED0093842D /* Info.plist */,
 				F42EDAEB213352E50093842D /* Species.swift */,
-				F42EDAED2133539F0093842D /* AnimalData.swift */,
+				F42EDAED2133539F0093842D /* Animal.swift */,
 			);
 			path = AnimalData;
 			sourceTree = "<group>";
@@ -88,7 +88,7 @@
 		F42EDADC213350ED0093842D /* AnimalDataTests */ = {
 			isa = PBXGroup;
 			children = (
-				F42EDAEF213353F40093842D /* AnimalDataTests.swift */,
+				F42EDAEF213353F40093842D /* AnimalTests.swift */,
 				F42EDADF213350ED0093842D /* Info.plist */,
 				F42EDAE9213351930093842D /* SpeciesTests.swift */,
 			);
@@ -206,7 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F42EDAEC213352E50093842D /* Species.swift in Sources */,
-				F42EDAEE2133539F0093842D /* AnimalData.swift in Sources */,
+				F42EDAEE2133539F0093842D /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F42EDAEA213351930093842D /* SpeciesTests.swift in Sources */,
-				F42EDAF0213353F40093842D /* AnimalDataTests.swift in Sources */,
+				F42EDAF0213353F40093842D /* AnimalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

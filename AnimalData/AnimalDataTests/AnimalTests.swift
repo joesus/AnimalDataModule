@@ -1,5 +1,5 @@
 //
-//  AnimalDataTests.swift
+//  AnimalTests.swift
 //  AnimalDataTests
 //
 //  Created by Joe Susnick on 8/26/18.
@@ -9,21 +9,21 @@
 import AnimalData
 import XCTest
 
-class AnimalDataTests: XCTestCase {
+class AnimalTests: XCTestCase {
 
-    let animal = AnimalData(
+    let animal = Animal(
         name: "Joe",
         species: .dog
     )
 
     func testName() {
         XCTAssertEqual(animal.name, "Joe",
-                       "Name is required as part of the AnimalData interface")
+                       "Name is required as part of the Animal type")
     }
 
     func testSpecies() {
         XCTAssertEqual(animal.species, .dog,
-                       "Species is required as part of the AnimalData interface")
+                       "Species is required as part of the Animal type")
     }
 
 }

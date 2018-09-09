@@ -1,5 +1,5 @@
 //
-//  AnimalData.swift
+//  Animal.swift
 //  AnimalData
 //
 //  Created by Joe Susnick on 8/26/18.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class AnimalData {
+public class Animal {
     public let name: String
     public let species: Species
 
