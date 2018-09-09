@@ -8,7 +8,12 @@
 
 import Foundation
 
-public protocol AnimalData {
-    var name: String { get }
-    var species: Species { get }
+public class AnimalData {
+    public let name: String
+    public let species: Species
+
+    public init(name: String, species: Species) {
+        self.name = name
+        self.species = species
+    }
 }
